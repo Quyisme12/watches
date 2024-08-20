@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+    color: #333333;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1, h2 {
+    color: #000000;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #0066cc;
+}
+
+nav a:hover {
+    color: #ff6600;
+}
+
+form {
+    margin: 20px 0;
+    text-align: center;
+}
+
+input[type="text"],
+input[type="number"] {
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #FF0000;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #cc0000;
+}
+
+.watch-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.watch-item {
+    background: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+}
+
+.watch-item img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.watch-item h2 {
+    font-size: 18px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.watch-item p {
+    margin-bottom: 10px;
+}
+
+.watch-item .price {
+    color: #FFD700;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}

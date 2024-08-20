@@ -1,0 +1,82 @@
+[
+    {
+        "id": 1,
+        "name": "Digital Watch",
+        "description": "A sleek digital watch with multiple features.",
+        "price": 399.99,
+        "brand": "Casio",
+        "image": "https://images.pexels.com/photos/190819/pexels-photo-190819.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+        "id": 2,
+        "name": "Chronograph Watch",
+        "description": "A classic chronograph watch with an elegant design.",
+        "price": 499.99,
+        "brand": "Fossil",
+        "image": "https://images.pexels.com/photos/125779/pexels-photo-125779.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+        "id": 3,
+        "name": "Vintage Watch",
+        "description": "A stylish vintage watch with a leather strap.",
+        "price": 299.99,
+        "brand": "Rolex",
+        "image": "https://images.pexels.com/photos/277390/pexels-photo-277390.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+        "id": 4,
+        "name": "Sport Watch",
+        "description": "A durable sport watch with a shock-resistant design.",
+        "price": 199.99,
+        "brand": "G-Shock",
+        "image": "https://images.pexels.com/photos/364822/rolex-watch-time-luxury-364822.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+        "id": 5,
+        "name": "Luxury Watch",
+        "description": "A luxurious watch with a diamond-encrusted bezel.",
+        "price": 999.99,
+        "brand": "Tag Heuer",
+        "image": "https://images.pexels.com/photos/280250/pexels-photo-280250.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+        "id": 6,
+        "name": "Smart Watch",
+        "description": "A modern smart watch with fitness tracking and notifications.",
+        "price": 299.99,
+        "brand": "Apple",
+        "image": "https://images.pexels.com/photos/277319/pexels-photo-277319.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+        "id": 7,
+        "name": "Analog Watch",
+        "description": "A simple analog watch with a classic design.",
+        "price": 149.99,
+        "brand": "Seiko",
+        "image": "https://images.pexels.com/photos/437037/pexels-photo-437037.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+        "id": 8,
+        "name": "Pilot Watch",
+        "description": "A robust pilot watch with a chronograph function.",
+        "price": 449.99,
+        "brand": "Breitling",
+        "image": "https://images.pexels.com/photos/236900/pexels-photo-236900.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+        "id": 9,
+        "name": "Diving Watch",
+        "description": "A water-resistant diving watch with a rotating bezel.",
+        "price": 529.99,
+        "brand": "Omega",
+        "image": "https://images.pexels.com/photos/2113994/pexels-photo-2113994.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+        "id": 10,
+        "name": "Fashion Watch",
+        "description": "A trendy fashion watch with an eye-catching design.",
+        "price": 89.99,
+        "brand": "Michael Kors",
+        "image": "https://images.pexels.com/photos/1190830/pexels-photo-1190830.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    }
+]

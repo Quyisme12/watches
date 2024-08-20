@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Watch List</title>
+</head>
+<body>
+    <header>
+        <h1>Watch List</h1>
+        <nav>
+            <a href="/">Home</a>
+            <a href="/cart">Cart (<%= cart ? cart.length : 0 %>)</a>        
+        </nav>
+        <form action="/search" method="GET">
+            <input type="text" name="q" placeholder="Search for watches...">
+            <button type="submit">Search</button>
+        </form>
+        <form action="/filter" method="GET">
+            <input type="number" name="minPrice" placeholder="Min Price">
+            <input type="number" name="maxPrice" placeholder="Max Price">
+            <button type="submit">Filter</button>
+        </form>
+    </header>
+    <div class="watch-list">
+        <% watches.forEach(watch => { %>
+        <div class="watch-item">
+            <img src="<%= watch.image %>" alt="<%= watch.name %>">
+            <h2><%= watch.name %></h2>
+            <p><%= watch.description %></p>
+            <p>Price: $<%= watch.price %></p>
+            <a href="/watch/<%= watch.id %>">View Details</a>
+            <form action="/add-to-cart/<%= watch.id %>" method="POST">
+                <button type="submit">Add to Cart</button>
+            </form>
+        </div>
+        <% }) %>
+    </div>
+</body>
+</html>
+
+

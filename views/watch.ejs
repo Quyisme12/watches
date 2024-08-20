@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= watch.name %> - Watch Store</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <header>
+        <h1><%= watch.name %></h1>
+        <nav>
+            <a href="/">Home</a>
+            <a href="/cart">Cart (<%= cart ? cart.length : 0 %>)</a>
+        </nav>
+    </header>
+    
+    <main>
+        <img src="<%= watch.image %>" alt="<%= watch.name %>">
+        <p><%= watch.description %></p>
+        <p>Price: $<%= watch.price %></p>
+        <p>Brand: <%= watch.brand %></p>
+        <form action="/add-to-cart/<%= watch.id %>" method="POST">
+            <button type="submit">Add to Cart</button>
+        </form>
+        <a href="/">Back to List</a>
+    </main>
+</body>
+</html>
